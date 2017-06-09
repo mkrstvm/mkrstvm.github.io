@@ -1,33 +1,32 @@
-/* Layout */
-
-body {
-    font:normal 12px/1.6em Arial, Helvetica, sans-serif;
-	color:#2a3845;
-	margin:0;
-	padding:0;
-	background:#FFFFFF;
+/*---------------------------------
+	LAYOUT
+-----------------------------------*/
+body{
+margin:0;
+padding:0;
+color:#000000;
+background:#efefef url(img/grey-jean.png) repeat center top;
+font:normal 0.9em/150% 'Arimo', "Trebuchet MS", arial, verdana, sans-serif;
+text-shadow: 0px 0px 1px transparent; /* google font pixelation fix */
 }
 
-p {
-	margin:0;
-	padding:0;
+
+
+
+.headline {
+    text-align: center;
+    color: blue;
+    background-color: lightblue
 }
 
-#wrapper {
-	margin:0 auto;
-	width:800px;
-	border-left:1px solid #f0e9eb;
-	border-right:1px solid #f0e9eb;
+.headline h1 {
+	margin-bottom: 0;
+}
+ 
+.headline p {
+	margin-top: 0;
 }
 
-#header {
-	margin:0 1px;
-}
-
-#bg {
-	heigTitle;
-	background:url('http://img840.imageshack.us/img840/9886/87926428.gif') repeat-x;
-}
 
 #Title {	
 	padding:10px 10px 10px;
@@ -36,64 +35,10 @@ p {
 }
 
 #lord{
-	float: right;
+    background-color: #F96;
+    align-items: center;
 }
 
-#profilepic,#lord{
-	display: inline;
-}
-
-#MyName {
-	margin-bottom:20px;
-	font:bold 18px Georgia, serif;
-	color:#F96;
-	text-align: center;
-}
-
-.label {
-	float: center;
-	margin-bottom:20px;
-	font:bold 13px Georgia, serif;
-	color:#F96;
-}
-
-#main-content {
-	margin:0 auto;
-}
-
-#main-image {
-	text-align:center;
-}
-
-#left-column {
-	width:400px;
-	padding:0 30px 30px;
-	float:left;
-}
-
-#right-column {
-	width:300px;
-	float:right;
-}
-
-#centre-column {
-	width:600px;
-	float:left;
-}
-
-.sidebar {
-	width:300px;
-	/*margin:0 auto;*/
-	/*padding:5px 5px;*/
-	background:url('http://img404.imageshack.us/img404/3092/shadowh.jpg') no-repeat top;
-}
-
-#footer {
-	background:#f7f7f7;
-	border-top:1px solid #f0e9eb;
-	padding:10px 15px;
-	clear:both;
-}
 
 /* Global Styling */
 
@@ -109,37 +54,7 @@ a:hover {
 	background:none;
 }
 
-h1 {
-	color:#7a2e40;
-	margin:0 0 10px;
-	padding-bottom:10px;
-	font:normal 17px Georgia, serif;
-	border-bottom:1px solid #efece7;
-}
 
-h2 {
-	color:#7a2e40;
-	margin:20px 0 10px;
-	padding-bottom:10px;
-	font:normal 17px Georgia, serif;
-	border-bottom:1px solid #efece7;
-}
-
-h3 {
-	color:#7a2e40;
-	margin:10px 0;
-	padding-bottom:10px;
-	font:bold 14px Arial, Helvetica, sans-serif;
-	border-bottom:1px solid #efece7;
-}
-
-p {
-	color:#06a;
-	margin:10px 0;
-	padding-bottom:10px;
-	font:bold 10px Arial, Helvetica, sans-serif;
-	border-bottom:1px solid #efece7;
-}
 
 ul {
 	padding:0;
@@ -176,11 +91,36 @@ ul {
 
 
 
-img {	
+#ellipticalimg {	
     border-radius: 50%;
     width: 120;
 	height: 158;
+    align-self: center;
 }
+
+#footer{
+text-align:center;
+padding:20px;
+margin:0;
+background:#efefef;
+border-top:1px solid #ccc;
+color:#999;
+font-size:0.8em;
+text-shadow:0px 1px 1px #fff;
+}
+
+#link-top{
+	float:right;
+	color:#666;
+	text-decoration:none;
+	display: inline-block;
+	padding:5px 10px;
+	background:#e5e5e5;
+	line-height:100%;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	}
 
 
 
