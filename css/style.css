@@ -5,7 +5,7 @@ body{
 margin:0;
 padding:0;
 color:#000000;
-background:#efefef url(img/grey-jean.png) repeat center top;
+background:#efefef url(img/stardu.png) repeat center top;
 font:normal 0.9em/150% 'Arimo', "Trebuchet MS", arial, verdana, sans-serif;
 text-shadow: 0px 0px 1px transparent; /* google font pixelation fix */
 }
@@ -16,7 +16,7 @@ text-shadow: 0px 0px 1px transparent; /* google font pixelation fix */
 .headline {
     text-align: center;
     color: blue;
-    background-color: lightblue
+    background-color: black
 }
 
 .headline h1 {
@@ -35,7 +35,7 @@ text-shadow: 0px 0px 1px transparent; /* google font pixelation fix */
 }
 
 #lord{
-    background-color: #F96;
+    /*background-color: #F96;*/
     align-items: center;
 }
 
